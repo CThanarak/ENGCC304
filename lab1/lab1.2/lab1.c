@@ -16,3 +16,6 @@ int main() {
  
     return 0 ;  
 }
+
+//Debug sheet : https://docs.google.com/spreadsheets/d/1Z4qheAnPLyaCdjV-d3AmaE9LgnulQdEkjzsf-ZgwpJs/edit?gid=498912388#gid=498912388
+//Flowchart : https://drive.google.com/file/d/18Yo3ZUALi-tMeM4DTV__apUT8BlkeYqn/view?usp=sharing
