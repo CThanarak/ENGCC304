@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="JsZyyuujacY8jrAPObdZ">
+    <mxGraphModel dx="3346" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-1" value="Start" style="strokeWidth:2;html:1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="375" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-2" value="เตรียมอุปกรณ์และวัตถุดิบ" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="140" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-1" target="Vz-E_x0628p7T2Q_pS6i-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-4" value="เตรียมหมูกรอบ: หั่นหมูกรอบเป็นชิ้นพอดีคำ" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="300" y="240" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-2" target="Vz-E_x0628p7T2Q_pS6i-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-6" value="เตรียมเครื่องผัดกะเพรา: ตำพริก,กระเทียมหยาบ,เตรียมใบกะเพรากรอบและใบกะเพราสด" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="175" y="340" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-4" target="Vz-E_x0628p7T2Q_pS6i-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-8" value="เตรียมไข่เยี่ยวม้า: ปอกเปลือกไข่เยี่ยว,ม้าหั่นไข่เป็นชิ้น" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="255" y="460" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-6" target="Vz-E_x0628p7T2Q_pS6i-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-10" value="ตอกไข่ (สำหรับข้าวผัด) และเตรียมข้าวสวย" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="205" y="570" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-8" target="Vz-E_x0628p7T2Q_pS6i-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-12" value="ตั้งกระทะใส่น้ำมันให้ร้อน" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-10" target="Vz-E_x0628p7T2Q_pS6i-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-14" value="เจียวพริกกระเทียมที่ตำไว้" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="770" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-12" target="Vz-E_x0628p7T2Q_pS6i-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-16" value="ใส่ไข่ ผัดให้เข้ากันกับพริกกระเทียม" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="310" y="870" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-14" target="Vz-E_x0628p7T2Q_pS6i-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-18" value="ใส่ข้าวสวยลงไป ผัดให้เข้ากัน" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="970" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-16" target="Vz-E_x0628p7T2Q_pS6i-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-20" value="ใส่หมูกรอบและไข่เยี่ยวม้า ปรุงรสด้วยซอสตามสูตร" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1070" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-18" target="Vz-E_x0628p7T2Q_pS6i-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-22" value="ผัดต่อจนส่วนผสมเข้ากันดี และข้าวเริ่มแห้งสวย" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1180" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-20" target="Vz-E_x0628p7T2Q_pS6i-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-24" value="ใส่ใบกะเพรากรอบ/สด" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-22" target="Vz-E_x0628p7T2Q_pS6i-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-26" value="ผัดต่ออีกเล็กน้อยให้เข้ากัน&lt;br&gt;แล้วปิดเตา" style="whiteSpace:wrap;html:1;strokeWidth:2;" parent="1" vertex="1">
+          <mxGeometry x="315" y="1390" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-24" target="Vz-E_x0628p7T2Q_pS6i-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-28" value="ตักข้าวผัดใส่จาน พร้อมเสิร์ฟ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace:wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="1500" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-26" target="Vz-E_x0628p7T2Q_pS6i-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-30" value="Stop" style="strokeWidth:2;html:1;shape=mxgraph.flowchart.start_1;whiteSpace:wrap;" parent="1" vertex="1">
+          <mxGeometry x="375" y="1600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz-E_x0628p7T2Q_pS6i-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vz-E_x0628p7T2Q_pS6i-28" target="Vz-E_x0628p7T2Q_pS6i-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
