@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    float h, w, area ;
+    float h = 0 ;
+    float w = 0 ;
+    float area = 0;
 
     printf( "Enter H : " ) ;
     scanf( "%f", &h ) ;
