@@ -26,3 +26,6 @@ int main() {
     printf( "\n" ) ;
     return 0 ;
 }//end main
+
+//flowchart: https://drive.google.com/file/d/1aF-92p-o78Nvr1P8BTTmfY7tWNYQHmF4/view?usp=sharing
+//debug: https://docs.google.com/spreadsheets/d/1B4zHc8xK6O8aGvI9w8LVbMnvW_GoHBzEK9nrALEmuoI/edit?usp=sharing
