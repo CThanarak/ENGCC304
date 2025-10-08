@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="kIRqe47HjxbeXhi8CGnn">
+    <mxGraphModel dx="1633" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-1" value="เริ่ม" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-2" value="กำหนดตัวแปร:&lt;br&gt;ID, ชม.ทำงาน (hrs), เงินเดือน/ชม. (salary)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="170" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-3" value="แสดง: &quot;ป้อน ID พนักงาน:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="270" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-4" value="รับค่า: ID พนักงาน" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="370" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-5" value="แสดง: &quot;ป้อน ชม.ทำงาน:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="470" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-6" value="รับค่า: ชม.ทำงาน (hrs)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="570" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-7" value="แสดง: &quot;ป้อน เงินเดือน/ชม.:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="670" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-8" value="รับค่า: เงินเดือน/ชม. (salary)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="770" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-9" value="แสดง: &quot;----------&quot;&lt;br&gt;และ &quot;Expected Output:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="870" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-10" value="แสดง: &quot;Employee ID: &quot; + ID" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="970" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-11" value="คำนวณ: เงินเดือนรวม &lt;br&gt;(&lt;b&gt;hrs&lt;/b&gt; * &lt;b&gt;salary&lt;/b&gt;)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1070" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-12" value="แสดง: &quot;Salary = U$ &quot; + เงินเดือนรวม (ทศนิยม 2 ตำแหน่ง)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1170" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-13" value="สิ้นสุด" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-1" target="YAsxENEFWVHpmcJM8_vU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-2" target="YAsxENEFWVHpmcJM8_vU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-3" target="YAsxENEFWVHpmcJM8_vU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-4" target="YAsxENEFWVHpmcJM8_vU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-5" target="YAsxENEFWVHpmcJM8_vU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-6" target="YAsxENEFWVHpmcJM8_vU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-7" target="YAsxENEFWVHpmcJM8_vU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-8" target="YAsxENEFWVHpmcJM8_vU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-9" target="YAsxENEFWVHpmcJM8_vU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-10" target="YAsxENEFWVHpmcJM8_vU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-11" target="YAsxENEFWVHpmcJM8_vU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAsxENEFWVHpmcJM8_vU-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="YAsxENEFWVHpmcJM8_vU-12" target="YAsxENEFWVHpmcJM8_vU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

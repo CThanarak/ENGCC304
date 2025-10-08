@@ -20,4 +20,7 @@ int main() {
     printf( "Salary = U$ %.2f\n", hrs * salary ) ; 
  
     return 0 ;  
-}
+}//end main
+
+//Debug : https://docs.google.com/spreadsheets/d/11DJ-HqsQA9u2CSPDB3lsSBNdn8fEuBZMt-unclNGyIY/edit?usp=sharing
+//Flowchart : https://drive.google.com/file/d/1kXm7UwtJVpdgl97k4x7nIZ1usIdVx3q9/view?usp=sharing
