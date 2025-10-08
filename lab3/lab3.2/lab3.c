@@ -39,3 +39,6 @@ int main() {
 
   return 0 ;
 }//end main
+
+//Debug : https://docs.google.com/spreadsheets/d/1qfMb76ZEEfgUe8VfoGqBHxVOGRptFiDvjY5qUurY2xc/edit?usp=sharing
+//Flowchart : https://drive.google.com/file/d/1UTpMqBu8GrXn03jzSPTeeTcXad_FT6op/view?usp=sharing
