@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    float H, W, Area ;
+    float h, w, area ;
 
-    printf( "Enter height (H): " ) ;
-    scanf( "%f", &H ) ;
+    printf( "Enter H : " ) ;
+    scanf( "%f", &h ) ;
 
-    printf( "Enter base (W): " ) ;
-    scanf( "%f", &W ) ;
+    printf( "Enter W: " ) ;
+    scanf( "%f", &w ) ;
 
-    Area = ( H * W ) / 2 ;
+    area = ( h * w ) / 2 ;
 
-    printf( "Area = %.1f\n", Area ) ;
+    printf( "Area = %.1f\n", area ) ;
 
     return 0;
 }//end main
