@@ -72,5 +72,5 @@ void printArrays( int a[], int isprime[], int n ) {
 }//end of printArrays
 
 
-//Flowchart : https://drive.google.com/file/d/1n5-gx-zQejQbxxFHDraX0pnW6wkwuDA5/view?usp=sharing
+//Flowchart : https://drive.google.com/file/d/1PaTuZCfbUTKcVskS8Udwgtmb2Fty_5nx/view?usp=sharing
 //Debug : https://docs.google.com/spreadsheets/d/1ChU6rFiffE68_t5jBppZAfGIcK2D4Op69akJbFn6AXA/edit?usp=sharing
