@@ -16,15 +16,40 @@ void inputStudent( S students[], int n );
 void printStudent( S students[], int n );
 
 void gradeFromScore( float s, char out[] ) {
-    if ( s >= 80 ) strcpy( out, "A" ) ;
-    else if ( s >= 75 ) strcpy( out, "B+" ) ;
-    else if ( s >= 70 ) strcpy( out, "B" ) ;
-    else if ( s >= 65 ) strcpy( out, "C+" ) ;
-    else if ( s >= 60 ) strcpy( out, "C" ) ;
-    else if ( s >= 55 ) strcpy( out, "D+" ) ;
-    else if ( s >= 50 ) strcpy( out, "D" ) ;
-    else strcpy( out, "F" ) ;
-}
+    int category = ( int )( s / 5 ) ;
+
+    switch ( category ) {
+        case 20 :
+        case 19 :
+        case 18 :
+        case 17 :
+        case 16 :
+            strcpy( out, "A" ) ;
+            break;
+        case 15 :
+            strcpy( out, "B+" ) ;
+            break ;
+        case 14 :
+            strcpy( out, "B") ;
+            break ;
+        case 13 :
+            strcpy(out, "C+") ;
+            break ;
+        case 12 :
+            strcpy(out, "C") ;
+            break ;
+        case 11:
+            strcpy(out, "D+") ;
+            break ;
+        case 10 :
+            strcpy(out, "D") ;
+            break ;
+        default :
+            strcpy(out, "F") ;
+            break ;
+    }// End switch
+}// End gradeFromScore
+
 
 void inputStudent( S students[], int n ) {
     printf( "Student %d:\n", n + 1 ) ;
