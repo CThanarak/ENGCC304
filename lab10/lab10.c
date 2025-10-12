@@ -1,37 +1,50 @@
 #include <stdio.h>
-#include <string.h>
 
-int main() {
-    char word[100] ;
-    int i, length, isPalindrome = 1 ;
+// Function prototypes
+int power(int base, int exp);
+int isArmstrong(int num);
 
-    printf( "Enter word: " ) ;
-    scanf( "%s" , word ) ;
+int power(int base, int exp) {
+    int result = 1;
+    for (int i = 0; i < exp; i++) {
+        result *= base;
+    }
+    return result;
+}
 
-    length = strlen( word ) ;
+int isArmstrong(int num) {
+    int original = num;
+    int sum = 0;
+    int digits = 0;
+    int temp = num;
 
-    for ( i = 0 ; i < length / 2 ; i++ ) {
-        char left = word[i] ;
-        char right = word[length - i - 1] ;
+    // นับจำนวนหลัก
+    while (temp > 0) {
+        temp /= 10;
+        digits++;
+    }
 
-        if ( left >= 'A' && left <= 'Z' ) {
-            left = left + 32 ;
-        }//end if
+    // คำนวณผลรวมของแต่ละหลักยกกำลังจำนวนหลัก
+    temp = num;
+    while (temp > 0) {
+        int digit = temp % 10;
+        sum += power(digit, digits);
+        temp /= 10;
+    }
 
-        if ( right >= 'A' && right <= 'Z' ) { 
-            right = right + 32 ;             
-        }//end if
+    return sum == original;
+}
 
-        if ( left != right ) {
-            isPalindrome = 0 ;
-            break ;
-        }// End if
-    }// End for
+int main(void) {
+    int num;
 
-    if ( isPalindrome )
-        printf( "Pass.\n" ) ;
+    printf("Enter number: ");
+    scanf("%d", &num);
+
+    if (isArmstrong(num))
+        printf("Pass.\n");
     else
-        printf( "Not Pass.\n" ) ;
+        printf("Not Pass.\n");
 
-    return 0 ;
-}// End main
+    return 0;
+}
