@@ -1,0 +1,528 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="J4w3VTjeCA6DGZehyiZ_">
+    <mxGraphModel dx="1716" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Main Program (main)" link=";html=1;fontStyle=1" id="dkZoDtYziPud3dBiPHP_-1">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+            <mxGeometry x="200" y="240" width="180" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Function: inputStudent" link=";html=1;fontStyle=1" id="dkZoDtYziPud3dBiPHP_-2">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+            <mxGeometry x="570" y="240" width="200" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Function: printStudent" link=";html=1;fontStyle=1" id="dkZoDtYziPud3dBiPHP_-3">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+            <mxGeometry x="820" y="240" width="200" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Function: gradeFromScore" link=";html=1;fontStyle=1" id="dkZoDtYziPud3dBiPHP_-4">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="240" width="220" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-5" value="เริ่มต้น" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-6" value="ประกาศตัวแปรอาร์เรย์โครงสร้าง&lt;br&gt;นักเรียน students[3]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-7" value="แสดง: &quot;Enter the details of 3 students :&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-8" value="กำหนดค่าเริ่มต้น i = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="510" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-9" value="i &lt; 3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-10" value="เรียกใช้ **inputStudent(students, i)**" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="670" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-11" value="i = i + 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="750" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fontSize=10;fillColor=none;strokeColor=light-dark(#6C8EBF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="160" y="820" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-13" value="กำหนดค่าเริ่มต้น i = 0 (ใหม่)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="860" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-14" value="i &lt; 3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-15" value="เรียกใช้ **printStudent(students, i)**" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1020" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-16" value="i = i + 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1100" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fontSize=10;fillColor=none;strokeColor=light-dark(#6c8ebf, #ffffff);" vertex="1" parent="1">
+          <mxGeometry x="160" y="1170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-18" value="คืนค่า 0 (จบโปรแกรม)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1210" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-19" value="สิ้นสุด" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-5" target="dkZoDtYziPud3dBiPHP_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-6" target="dkZoDtYziPud3dBiPHP_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-7" target="dkZoDtYziPud3dBiPHP_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-8" target="dkZoDtYziPud3dBiPHP_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-24" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-9" target="dkZoDtYziPud3dBiPHP_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-10" target="dkZoDtYziPud3dBiPHP_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-11" target="dkZoDtYziPud3dBiPHP_-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-12" target="dkZoDtYziPud3dBiPHP_-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="830" />
+              <mxPoint x="170" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-28" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-9" target="dkZoDtYziPud3dBiPHP_-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="620" />
+              <mxPoint x="400" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-13" target="dkZoDtYziPud3dBiPHP_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-30" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-14" target="dkZoDtYziPud3dBiPHP_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-15" target="dkZoDtYziPud3dBiPHP_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-16" target="dkZoDtYziPud3dBiPHP_-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-17" target="dkZoDtYziPud3dBiPHP_-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="1180" />
+              <mxPoint x="170" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-34" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-14" target="dkZoDtYziPud3dBiPHP_-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="960" />
+              <mxPoint x="400" y="1235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-18" target="dkZoDtYziPud3dBiPHP_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-37" target="dkZoDtYziPud3dBiPHP_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-37" value="เริ่มต้นฟังก์ชัน&lt;br&gt;inputStudent" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-39" target="dkZoDtYziPud3dBiPHP_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-39" value="แสดง: &quot;Student &quot; + (n + 1) + &quot;:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-41" target="dkZoDtYziPud3dBiPHP_-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-41" value="แสดง: &quot;Name:&quot; &lt;br&gt;รับค่า Name (students[n].Name)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="430" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-43" target="dkZoDtYziPud3dBiPHP_-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-43" value="แสดง: &quot;ID:&quot; &lt;br&gt;รับค่า ID (students[n].ID)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="510" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-45" target="dkZoDtYziPud3dBiPHP_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-45" value="แสดง/รับค่า คะแนนวิชา 1 (ScoreSub1)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="590" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-47" target="dkZoDtYziPud3dBiPHP_-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-47" value="แสดง/รับค่า คะแนนวิชา 2 (ScoreSub2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="670" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-49" target="dkZoDtYziPud3dBiPHP_-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-49" value="แสดง/รับค่า คะแนนวิชา 3 (ScoreSub3)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="750" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-51" target="dkZoDtYziPud3dBiPHP_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-51" value="แสดง/รับค่า คะแนนวิชา 4 (ScoreSub4)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="830" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-53" target="dkZoDtYziPud3dBiPHP_-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-53" value="แสดง/รับค่า คะแนนวิชา 5 (ScoreSub5)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="910" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-54" value="แสดงบรรทัดว่าง" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="990" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-55" value="สิ้นสุดฟังก์ชัน&lt;br&gt;inputStudent" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1060" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-56" target="dkZoDtYziPud3dBiPHP_-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-56" value="เริ่มต้นฟังก์ชัน&lt;br&gt;printStudent" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="850" y="280" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-57" value="เรียกใช้ **gradeFromScore**&lt;br&gt;สำหรับ ScoreSub1 (ได้ g1)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-58" target="dkZoDtYziPud3dBiPHP_-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-58" value="เรียกใช้ **gradeFromScore**&lt;br&gt;สำหรับ ScoreSub2 (ได้ g2)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="430" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-59" target="dkZoDtYziPud3dBiPHP_-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-59" value="เรียกใช้ **gradeFromScore**&lt;br&gt;สำหรับ ScoreSub3 (ได้ g3)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="510" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-60" target="dkZoDtYziPud3dBiPHP_-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-60" value="เรียกใช้ **gradeFromScore**&lt;br&gt;สำหรับ ScoreSub4 (ได้ g4)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="590" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-61" target="dkZoDtYziPud3dBiPHP_-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-61" value="เรียกใช้ **gradeFromScore**&lt;br&gt;สำหรับ ScoreSub5 (ได้ g5)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="670" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-62" value="แสดง: &quot;Student &quot; + (n + 1) + &quot;:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="750" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-63" target="dkZoDtYziPud3dBiPHP_-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-63" value="แสดง: &quot;Name: &quot; + Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="820" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-64" target="dkZoDtYziPud3dBiPHP_-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-64" value="แสดง: &quot;ID: &quot; + ID" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="890" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-65" target="dkZoDtYziPud3dBiPHP_-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-65" value="แสดง คะแนนวิชา 1, 2, 3, 4, 5" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="960" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-66" target="dkZoDtYziPud3dBiPHP_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-66" value="แสดง เกรด g1, g2, g3, g4, g5" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1030" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-67" value="แสดงบรรทัดว่าง" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1100" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-68" value="สิ้นสุดฟังก์ชัน&lt;br&gt;printStudent" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-70" target="dkZoDtYziPud3dBiPHP_-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="340" />
+              <mxPoint x="1400" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-70" value="เริ่มต้นฟังก์ชัน&lt;br&gt;gradeFromScore" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-71" value="s &amp;gt;= 80 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-72" value="กำหนดเกรด out = &quot;A&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="355" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-73" value="s &amp;gt;= 75 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-74" value="กำหนดเกรด out = &quot;B+&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="445" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-75" value="s &amp;gt;= 70 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-77" target="dkZoDtYziPud3dBiPHP_-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-77" value="กำหนดเกรด out = &quot;B&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="535" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-78" value="s &amp;gt;= 65 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-80" target="dkZoDtYziPud3dBiPHP_-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-80" value="กำหนดเกรด out = &quot;C+&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="624" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-81" value="s &amp;gt;= 60 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="711" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-82" value="s &amp;gt;= 55 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="806" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-84" target="dkZoDtYziPud3dBiPHP_-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-84" value="กำหนดเกรด out = &quot;D+&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="811" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-85" value="s &amp;gt;= 50 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-87" target="dkZoDtYziPud3dBiPHP_-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-87" value="กำหนดเกรด out = &quot;D&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="905" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-89" target="dkZoDtYziPud3dBiPHP_-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-89" value="กำหนดเกรด out = &quot;F&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1000" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-90" value="สิ้นสุดฟังก์ชัน&lt;br&gt;gradeFromScore" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-91" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-71" target="dkZoDtYziPud3dBiPHP_-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-92" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-71" target="dkZoDtYziPud3dBiPHP_-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-93" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-73" target="dkZoDtYziPud3dBiPHP_-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-94" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-75" target="dkZoDtYziPud3dBiPHP_-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-95" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-78" target="dkZoDtYziPud3dBiPHP_-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="690" as="sourcePoint" />
+            <mxPoint x="1400" y="690" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-96" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-82" target="dkZoDtYziPud3dBiPHP_-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-97" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-85" target="dkZoDtYziPud3dBiPHP_-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-54" target="dkZoDtYziPud3dBiPHP_-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-100" target="dkZoDtYziPud3dBiPHP_-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-100" value="กำหนดเกรด out = &quot;C&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="716" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-101" value="เท็จ (F)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="830" as="sourcePoint" />
+            <mxPoint x="1400" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-102" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-73" target="dkZoDtYziPud3dBiPHP_-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="470" />
+              <mxPoint x="1330" y="470" />
+            </Array>
+            <mxPoint x="1370" y="480" as="sourcePoint" />
+            <mxPoint x="1310" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-103" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-75" target="dkZoDtYziPud3dBiPHP_-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="560" />
+            </Array>
+            <mxPoint x="1370" y="570" as="sourcePoint" />
+            <mxPoint x="1310" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-104" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-78" target="dkZoDtYziPud3dBiPHP_-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="650" />
+              <mxPoint x="1310" y="649" />
+            </Array>
+            <mxPoint x="1370" y="630" as="sourcePoint" />
+            <mxPoint x="1310" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-105" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="741" />
+              <mxPoint x="1310" y="740" />
+              <mxPoint x="1280" y="740" />
+            </Array>
+            <mxPoint x="1370" y="740" as="sourcePoint" />
+            <mxPoint x="1280" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-106" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-82" target="dkZoDtYziPud3dBiPHP_-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="836" />
+              <mxPoint x="1340" y="836" />
+            </Array>
+            <mxPoint x="1390" y="830" as="sourcePoint" />
+            <mxPoint x="1330" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-107" value="จริง (T)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.019;exitY=0.53;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-85" target="dkZoDtYziPud3dBiPHP_-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1342" y="930" />
+            </Array>
+            <mxPoint x="1370" y="940" as="sourcePoint" />
+            <mxPoint x="1310" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-108" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1015" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-110" target="dkZoDtYziPud3dBiPHP_-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-110" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1015" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-112" target="dkZoDtYziPud3dBiPHP_-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-112" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="920" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-114" target="dkZoDtYziPud3dBiPHP_-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-114" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="826" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-116" target="dkZoDtYziPud3dBiPHP_-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-116" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="731" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-118" target="dkZoDtYziPud3dBiPHP_-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-118" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="639" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-120" target="dkZoDtYziPud3dBiPHP_-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-120" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-122" target="dkZoDtYziPud3dBiPHP_-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-122" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-124" target="dkZoDtYziPud3dBiPHP_-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-124" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.149;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-72" target="dkZoDtYziPud3dBiPHP_-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.149;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-74" target="dkZoDtYziPud3dBiPHP_-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-108" target="dkZoDtYziPud3dBiPHP_-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.499;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-57" target="dkZoDtYziPud3dBiPHP_-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.514;entryY=-0.068;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-62" target="dkZoDtYziPud3dBiPHP_-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkZoDtYziPud3dBiPHP_-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dkZoDtYziPud3dBiPHP_-67" target="dkZoDtYziPud3dBiPHP_-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
